@@ -1,13 +1,16 @@
 # Skin Lesion Classification with CNN
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18VhBBDjd0xOoLkxLkI_-zKs_tzjk6TEn?usp=sharing)
+
 ## Overview
 
 This project explores automated skin lesion classification using the HAM10000 augmented dataset. A compact ResNet-style Convolutional Neural Network is implemented to classify dermatoscopic images into seven diagnostic categories. The study focuses on handling class imbalance and evaluating performance with metrics beyond accuracy, including precision, recall, and macro F1.
 
 ### Dataset
 
-- HAM10000 augmented dataset: 39,500 dermatoscopic images with additional augmentation to address class imbalance.
-- Classes: melanocytic nevi (nv), melanoma (mel), benign keratosis-like lesions (bkl), actinic keratoses (akiec), basal cell carcinoma (bcc), dermatofibroma (df), vascular lesions (vasc). All images resized to 160×160.
+- **HAM10000 augmented dataset**: 39,500 dermatoscopic images with additional augmentation to address class imbalance.
+  - Classes: melanocytic nevi (nv), melanoma (mel), benign keratosis-like lesions (bkl), actinic keratoses (akiec), basal cell carcinoma (bcc), dermatofibroma (df), vascular lesions (vasc). All images resized to 160×160.
+  - Download: [Kaggle - HAM10000 Augmented Dataset](https://www.kaggle.com/datasets/utkarshps/skin-cancer-mnist10000-ham-augmented-dataset)
 - Data split into training, validation, and test sets.
 
 ### Model Architecture
